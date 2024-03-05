@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
+    <script src="js/calculator_functions.js"></script>
+</head>
+<body>
+<div class="principal">
+    <div class="background">
+        <div class="display" id="result">0</div>
+      
+        <div class="rows">  
+          <button id="specials" onclick="delete_display ()">C</button>
+          <button onclick="add_number('9')">9</button>
+          <button onclick="add_number('6')">6</button>
+          <button onclick="add_number('3')">3</button>
+          <button onclick="add_number('0')">0</button>
+         </div>
+         
+         <div class="rows">
+          <button id="specials" onclick="delete_display ()">AC</button>
+          <button onclick="add_number('8')">8</button>
+          <button onclick="add_number('5')">5</button>
+          <button onclick="add_number('2')">2</button>
+         </div>
+         
+         <div class="rows">
+           <button id="specials">%</button>
+           <button onclick="add_number('7')">7</button>
+           <button onclick="add_number('4')">4</button>
+           <button onclick="add_number('1')">1</button>
+           <button onclick="add_number('.')">.</button>
+          </div>
+         
+          <div class="rows" id="buttons_signs">
+           <button id="signs" onclick="add_number ('+')">+</button>
+           <button id="signs" onclick="add_number ('-')">-</button>
+           <button id="signs" onclick="add_number ('*')">*</button>
+           <button id="signs" onclick="add_number ('/')">/</button>
+           <button id="signs" onclick="calc ()">=</button>
+          </div>
+      </div>
+</div>
+</body>
+</html>

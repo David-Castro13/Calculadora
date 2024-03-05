@@ -1,0 +1,44 @@
+.principal {
+    display: flex;
+    flex-dirección: columna;
+    justify-content: center;
+}
+
+.background{
+    background-color: #21013f;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgb(92, 85, 109);
+}
+.display{
+    background-color: rgb(255, 253, 231);
+    margin: 15px;
+    height: 40px;
+    text-align: end;
+    font-size: 35px;
+}
+
+.rows{
+    display: inline-grid;
+    margin-top: 20px;
+}
+.rows button{
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: #e6c7fa;
+    font-size: 30px;
+    margin: 4px;
+}
+
+#signs{
+    background-color: #8228be;
+    color: white;
+}
+
+#specials{
+    background-color: #3d0066;
+    color: white;
+}
